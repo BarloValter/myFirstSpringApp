@@ -1,0 +1,45 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>${phone.name}</title>
+</head>
+<body>
+<table style="border: 1px solid; text-align:left">
+    <tr>
+        <td><label>Producer</label></td>
+        <td><label>${phone.producer.name}</label></td>
+    </tr>
+    <tr>
+        <td><label>Id</label></td>
+        <td><label>${phone.id}</label></td>
+    </tr>
+    <tr>
+        <td><label>Name</label></td>
+        <td><label>${phone.name}</label></td>
+    </tr>
+    <tr>
+        <td><label>Screen</label></td>
+        <td><label>${phone.screen}</label></td>
+    </tr>
+    <tr>
+        <td><label>Camera</label></td>
+        <td><label>${phone.camera}</label></td>
+    <tr>
+        <td><label>Ram</label></td>
+        <td><label>${phone.ram}</label></td>
+    </tr>
+    <tr>
+        <td><label>Memory</label></td>
+        <td><label>${phone.memory}</label></td>
+    </tr>
+    <tr>
+        <td><label>Sim</label></td>
+        <td><label>${phone.sim}</label></td>
+    </tr>
+    <tr>
+        <td><label>Price</label></td>
+        <td><label>${phone.price}</label></td>
+    </tr>
+</table>
+</body>
+</html>
